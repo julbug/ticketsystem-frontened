@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <Navbar
     collapseOnSelect
-    bg="info"
+    bg="secondary"
     variant="dark"
     expand="md"
     >
