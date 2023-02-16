@@ -36,15 +36,15 @@ export const Entry = () => {
     console.log(email, password);
   }
 
-  const handleOnResetSubmit = e =>{
-    e.preventDefault()
-    if(!email){
-      return alert("Please enter email!")
+    const handleOnResetSubmit = e =>{
+      e.preventDefault()
+      if(!email){
+        return alert("Please enter email!")
+      }
+  
+      //TODO call api to submit the form
+      console.log(email);
     }
-
-    //TODO call api to submit the form
-    console.log(email);
-  }
 
   const formSwitcher = frmType =>{
     setFrmLoad(frmType);
