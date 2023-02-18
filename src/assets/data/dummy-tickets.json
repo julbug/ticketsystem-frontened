@@ -1,51 +1,78 @@
 [
     {
         "id":1,
+        "subject": "Email certificate expired",
         "status": "Client response pending",
-        "addedAt": "2023-02-16"
+        "addedAt": "2023-02-16",
+        "history" : [
+            {
+                "date": "23-02-18",
+                "message": "asdasd",
+                "messageBy": "client"
+            },
+            {
+                "date": "23-02-18",
+                "message": "asdasd",
+                "messageBy": "operator"
+            },
+            {
+                "date": "23-02-18",
+                "message": "asdasd",
+                "messageBy": "client"
+            }
+        ]
     },
     {
         "id":2,
+        "subject": "Issue with Email certificate",
         "status": "Client response pending",
         "addedAt": "2023-02-16"
     },
     {
         "id":3,
+        "subject": "Issue app crashing",
         "status": "Client response pending",
         "addedAt": "2023-02-16"
     },
     {
         "id":4,
+        "subject": "Issue with ssl certificate",
         "status": "Client response pending",
         "addedAt": "2023-02-16"
     },
     {
         "id":5,
+        "subject": "Issue with ssl certificate",
         "status": "Client response pending",
         "addedAt": "2023-02-16"
     },
     {
         "id":6,
+        "subject": "Issue with ssl certificate",
         "status": "Client response pending",
         "addedAt": "2023-02-16"
     },
     {
         "id":7,
+        "subject": "Issue with ssl certificate",
         "status": "Client response pending",
         "addedAt": "2023-02-16"
     },
     {
         "id":8,
+        "subject": "Issue with ssl certificate",
         "status": "Client response pending",
         "addedAt": "2023-02-16"
     },
     {
         "id":9,
+        "subject": "Issue with ssl certificate",
         "status": "Client response pending",
         "addedAt": "2023-02-16"
     },
     {
         "id":10,
+        "subject": "Issue with ssl certificate",
         "status": "Client response pending",
         "addedAt": "2023-02-16"
     }
