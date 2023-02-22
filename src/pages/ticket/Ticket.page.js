@@ -53,8 +53,7 @@ export const Ticket = () => {
         </Row>
         <Row className="mt-4">
           <Col>
-            <MessageHistory msg={ticket.history} />
-          </Col>
+          {ticket.history && <MessageHistory msg={ticket.history} /> } </Col>
         </Row>
         <hr />
         <Row className="mt-4">
