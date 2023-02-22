@@ -12,7 +12,7 @@ export const ResetPassword = ({
     <Container>
     <Row>
         <Col>
-          <h1 className='text-info text-center'>Reset Password</h1>
+          <h1 className='text-success text-center'>Reset Password</h1>
           <hr/>
           <Form autoComplete="off" onSubmit ={handleOnResetSubmit}>
             <Form.Group>

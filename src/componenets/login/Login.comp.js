@@ -13,7 +13,7 @@ export const LoginForm = ({
     <Container>
     <Row>
         <Col>
-          <h1 className='text-info text-center'>Client Login</h1>
+          <h1 className='text-success text-center'>Client Login</h1>
           <hr/>
           <Form autoComplete="off" onSubmit ={handleOnSubmit}>
             <Form.Group>
@@ -40,7 +40,8 @@ export const LoginForm = ({
                     
                 />
             </Form.Group>
-            <Button type="submit">Login</Button>
+            <br />
+           <center><Button type="submit">Login</Button></center>
           </Form>
           <hr />
       </Col>

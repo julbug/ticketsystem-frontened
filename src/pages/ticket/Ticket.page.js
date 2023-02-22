@@ -4,14 +4,24 @@ import { PageBreadcrumb } from '../../componenets/breadcrumb/Breadcrumb.comp';
 import tickets from '../../assets/data/dummy-tickets.json';
 import { MessageHistory } from '../../componenets/message-history/MessageHistory.comp';
 import { UpdateTicket } from '../../componenets/update-ticket/UpdateTicket.comp';
+import {useParams} from "react-router-dom";
 
-const ticket = tickets[0]
+// const ticket = tickets[0];
+
 export const Ticket = () => {
+  const {tId} = useParams()
   const [message, setMessage] = useState('');
+  const [ticket, setTicket] = useState('');
 
-  useEffect(()=> {
-
-  }, [message])
+  useEffect(() => {
+    for (let i = 0; i < tickets.length; i++) {
+      if(tickets[i].id === tId){
+        setTicket(tickets[i])
+        continue
+      }
+      
+    }
+  }, [message, tId]);
 
 
 
@@ -32,12 +42,13 @@ export const Ticket = () => {
         </Row>
         <Row>
             <Col className="font-weight-bolder text-secondary">
+
                <div className="subject">Subject: {ticket.subject}</div>
                <div className="date">Ticket Opened: {ticket.addedAt}</div>
                <div className="status">Status: {ticket.status}</div>
             </Col>
             <Col className="text-right">
-              <Button variant = "outline-info">Close Ticket</Button>
+              <Button variant = "outline-success">Close Ticket</Button>
             </Col>
         </Row>
         <Row className="mt-4">
@@ -58,3 +69,4 @@ export const Ticket = () => {
     </Container>
   );
 };
+

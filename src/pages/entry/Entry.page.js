@@ -52,7 +52,7 @@ export const Entry = () => {
   }
 
   return (
-    <div className="entry-page bg-info">
+    <div className="entry-page bg-success">
     <div className="p-5 mb-4 bg-light rounded-3 shadow">
     <div className='form-box'>
     {frmLoad === 'login' && (
