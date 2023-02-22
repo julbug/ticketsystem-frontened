@@ -1,7 +1,7 @@
 Help Desk / Ticketing System Exercise
 
 1. Login Page
-![login](./readMePics/ClientLogin.png"Client Login")
+<img src="./readMePics/ClientLogin.png" />
 -Client must login to create and submit a ticket
 
 2. Dashboard
